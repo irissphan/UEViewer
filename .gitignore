@@ -1,4 +1,4 @@
-# Some temporaty directories and directories with data
+# Some temporary directories and directories with data
 data
 data/
 obj/
@@ -33,6 +33,7 @@ umodel.cfg
 # Executable files and pdb
 umodel[-_]*.exe
 umodel*.pdb
+umodel
 Tools/**/*.exe
 Tools/**/*.pdb
 *todo.md
@@ -51,3 +52,7 @@ Tools/PackageExtract/oo2core*.dll
 
 # PackageExtract - ignore all extracted stuff
 Tools/PackageExtract/**/
+
+# macOS metadata files
+.DS_Store
+**/.DS_Store
